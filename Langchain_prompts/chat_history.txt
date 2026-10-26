@@ -1,0 +1,4 @@
+Human: I want a refund for my order.
+AI: I'm sorry to hear that. Can you share your order ID?
+Human: My order ID is 12345.
+AI: Thanks! I'll help you with your refund.

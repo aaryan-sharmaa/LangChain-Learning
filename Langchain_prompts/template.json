@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nExplain the research paper: {paper_input}\n\nExplanation Style: {style_input}\nExplanation Length: {length_input}\n\n1. Mathematical Details:\n   - Include relevant mathematical equations if present.\n   - Explain concepts with intuitive examples.\n\n2. Analogies:\n   - Use relatable analogies to simplify complex ideas.\n\nEnsure the explanation is clear and accurate.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
