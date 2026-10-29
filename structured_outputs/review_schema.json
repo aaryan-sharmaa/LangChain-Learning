@@ -1,0 +1,21 @@
+{
+    "title": "ReviewSummary",
+    "type": "object",
+    "properties": {
+        "summary": {"type": "string"},
+        "sentiment": {
+            "type": "string",
+            "enum": ["positive", "negative", "mixed", "neutral"]
+        },
+        "pros": {
+            "type": "array",
+            "items": {"type": "string"}
+        },
+        "cons": {
+            "type": "array",
+            "items": {"type": "string"}
+        }
+    },
+    "required": ["summary", "sentiment", "pros", "cons"],
+    "additionalProperties": false
+} 
