@@ -8,5 +8,6 @@ __pycache__/
 .streamlit/secrets.toml
 "@ | Set-Content .gitignore
 
+.books/
 .claude/
 .agents/
